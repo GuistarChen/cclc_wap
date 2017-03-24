@@ -1,0 +1,48 @@
+{
+  "name": "p2-webpack-simple",
+  "description": "none",
+  "author": "c",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev NODE_TAR=wap webpack-dev-server --inline --hot --port 8080 --host 0.0.0.0",
+    "dev:test": "cross-env NODE_ENV=dev:test NODE_TAR=wap webpack-dev-server --inline --hot --port 8080 --host 0.0.0.0",
+    "buildTest": "cross-env NODE_ENV=test NODE_TAR=wap webpack --progress --hide-modules",
+    "buildProd": "cross-env NODE_ENV=prod NODE_TAR=wap webpack --progress --hide-modules",
+    "buildTestPC": "cross-env NODE_ENV=testpc NODE_TAR=pc webpack --progress --hide-modules",
+    "buildTestPCNoVue": "cross-env NODE_ENV=testpc-novue NODE_TAR=pcnovue webpack --progress --hide-modules",
+    "buildProdPC": "cross-env NODE_ENV=prodpc NODE_TAR=pc webpack --progress --hide-modules",
+    "buildProdPCNoVue": "cross-env NODE_ENV=prodpc-novue NODE_TAR=pcnovue webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.0.0",
+    "vue": "^1.0.0",
+    "vue-async-data": "^1.0.2",
+    "vue-clipboard": "^0.0.1",
+    "vue-core-image-upload": "^0.9.5",
+    "vue-infinite-loading": "0.3.1",
+    "vue-router": "0.7.13",
+    "vue-touch": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "bootstrap-css": "3.0.0",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.4",
+    "json-loader": "^0.5.4",
+    "style-loader": "0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^8.2.1",
+    "vue-resource": "0.9.3",
+    "vue-strap": "1.0.11",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}

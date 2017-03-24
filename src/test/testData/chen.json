@@ -1,0 +1,216 @@
+{
+    "getUploadSignature":{
+        "errcode":0,"err":"","data":{"signature":"","save-key":"/nationalDay/aaa.png"}
+    },
+    "getPhotoList": {
+        "err": "error",
+        "list": [{
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        },
+        {
+            "_id":"890",
+            "mobile":"152****5228",
+            "comment":"345",
+            "image_url":"/src/components/wap/nationalDay/img/img.png"
+        }
+        ],
+        "pn":"1",
+        "size":"10",
+        "total":"11"
+    },
+    "fetchNationdalDayPaper":{
+        "err": "error",
+        "questions":[
+            {
+                "title": "111111",
+                "options": [
+                    {
+                    "name": "111",
+                     "score": "1"
+                    }, 
+                    {
+                    "name": "222", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "333", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "444",
+                    "score": "1"
+                    }
+                    ]
+            },
+            {
+                "title": "111111",
+                "options": [
+                    {
+                    "name": "111",
+                     "score": "1"
+                    }, 
+                    {
+                    "name": "222", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "333", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "444",
+                    "score": "1"
+                    }
+                    ]
+            },
+            {
+                "title": "111111",
+                "options": [
+                    {
+                    "name": "111",
+                     "score": "1"
+                    }, 
+                    {
+                    "name": "222", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "333", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "444",
+                    "score": "1"
+                    }
+                    ]
+            },
+            {
+                "title": "111111",
+                "options": [
+                    {
+                    "name": "111",
+                     "score": "1"
+                    }, 
+                    {
+                    "name": "222", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "333", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "444",
+                    "score": "1"
+                    }
+                    ]
+            },
+            {
+                "title": "111111",
+                "options": [
+                    {
+                    "name": "111",
+                     "score": "1"
+                    }, 
+                    {
+                    "name": "222", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "333", 
+                    "score": "1"
+                    },
+                    {
+                    "name": "444",
+                    "score": "1"
+                    }
+                    ]
+            }
+        ]
+    },
+    "fetchNationdalDayResult":{
+        "err":"",
+        "questions":[{
+            "qid":"1",
+            "title":"我只想静静的吃东西？"
+        },
+        {
+            "qid":"2",
+            "title":"我只想静静的吃只想静静的吃只想静静的吃只想静静的吃东西？"
+        },
+        {
+            "qid":"3",
+            "title":"我只想静静的吃东西？"
+        },
+        {
+            "qid":"4",
+            "title":"我只想静静的吃东西？"
+        },
+        {
+            "qid":"5",
+            "title":"我只想静静的吃东西？"
+        }
+        ],
+        "user_answers": ["哈哈","我的","333","4444","000"],
+        "right_answers":["哈哈","我的","333","4444","000"],
+        "score":"300"
+    }
+  
+}

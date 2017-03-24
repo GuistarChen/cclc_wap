@@ -1,0 +1,18 @@
+{
+    "fetchStat": {
+        "err": "error",
+        "data": "data"
+    },
+    "fetchSections": {
+        "err": "error",
+        "data": "data"
+    },
+    "fetchDebtList": {
+        "err": "error",
+        "data": "data"
+    },
+    "fetchDebtByKey": {
+        "err": "error",
+        "data": "data"
+    }
+}
