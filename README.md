@@ -16,11 +16,11 @@
 
 <p>技术架构</p>
 
--- vue-cli
--- vue-router
--- Vue components
--- babel loader for ES6
--- vue_static
+-- vue-cli <br>
+-- vue-router <br>
+-- Vue components <br> 
+-- babel loader for ES6 <br>
+-- vue_static <br>
 -- webpack
 
 
