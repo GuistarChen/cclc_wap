@@ -1,6 +1,6 @@
-# cclc_wap
+# cclc_wap （）
 
-
+<p>接口会遇到跨域问题可以使用火狐浏览器查看要安装跨域插件cros-everywhere</p>
 
 <p align="center">
   <a href="https://vue-hn.now.sh" target="_blank">
