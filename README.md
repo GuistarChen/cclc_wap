@@ -1,1 +1,37 @@
 # cclc_wap
+
+HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
+
+<p align="center">
+  <a href="https://vue-hn.now.sh" target="_blank">
+    <img src="/vue_static/img/home.png" >
+    <br>
+ 
+  </a>
+</p>
+
+
+
+## Features
+
+
+- Single-file Vue Components
+  - Hot-reload in development
+  - CSS extraction for production
+
+
+
+## Build Setup
+
+
+
+``` bash
+# install dependencies
+npm install
+
+# serve in dev mode, with hot reload at localhost:8080
+npm run dev
+
+# build for production
+npm run build
+
