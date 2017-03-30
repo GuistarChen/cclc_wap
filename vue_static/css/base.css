@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {color:#333; background:#edeff5;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {margin:0; padding:0;}
+body,button,input,select,textarea,li,dt,dd,div,td,p,span { font-family:Microsoft Yahei,arial,verdana;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal; font-family:Microsoft Yahei,arial,verdana;}
+address,cite,dfn,em,var {font-style:normal;}
+code,kbd,pre,samp {font-family:courier new,courier,monospace;}
+ul,ol {list-style:none outside none;}
+a {color:#333; text-decoration:none; hide-focus:expression(this.hideFocus=true); outline:none;}
+a:hover {text-decoration:none;}
+a:focus {outline:0;}
+legend {color:#333;}
+fieldset,img {border:none;}
+img {vertical-align:bottom;}
+button,input,select,textarea {margin:0; padding:0; font-size:14px; outline:0 none; vertical-align:middle;}
+button {cursor:pointer;}
+input[type="radio"] {position:relative; top:-2px;}
+table {border-collapse:collapse; border-spacing:0;}

@@ -1,0 +1,163 @@
+
+body {
+    /* 优化触摸体验 */
+    -webkit-overflow-scrolling: touch;
+    font-family: Helvetica;
+}
+
+#top {
+    width: 100%;
+}
+
+.pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: #555;
+    margin: 0 5px;
+    opacity: 0.8;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.swiper-active-switch {
+    background: #fff;
+}
+/* product*/
+#product {
+    text-align: center;
+    width:70%;
+    margin-left: 15%;
+    background:url("../img/Oval%205.png") no-repeat;
+    background-size:contain;
+}
+
+#product ul li {
+    margin: 20px auto;
+}
+.name {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.profit {
+    font-size: 12px;
+    padding-top: 30px;
+    color: #999;
+}
+.rate {
+    font-size: 36px;
+    color: red;
+}
+.date {
+    font-size: 14px;
+    color: #333333;
+}
+.hot {
+    color: red;
+}
+.detail {
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+h2 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn2 {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #ff3b4c;
+    border: none;
+    line-height: 40px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+}
+/*footer*/
+#footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+    background: url("../img/tab_bg.png") center top  no-repeat;
+    background-size:cover;
+    height:80px;
+    z-index:100；
+}
+#footer img {
+    
+}
+
+/*错误提示弹窗样式start*/
+.errorBox {
+    width: 85%;
+    height: 140px;
+    margin: 0 auto;
+    background: rgb(64,64,64);
+    background-size: 100%;
+    border-radius: 12px;
+    opacity: 0.9;
+    position: fixed;
+    z-index:999;
+    top: 30%;   
+    left: 7.5%;
+}
+.errorBox .top {
+    width: 30px;
+    height: 70px;
+    background: url("../img/false.png") center 30px no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.errorBox .msg {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 100;
+}
+/*错误提示弹窗样式end*/
+
+/*　成功提示弹窗样式start*/
+.successBox {
+    width: 85%;
+    height: 140px;
+    margin: 0 auto;
+    z-index:999;
+    background: rgb(64,64,64);
+    background-size: 100%;
+    border-radius: 12px;
+    opacity: 0.9;
+    position: fixed;
+    top: 30%;   
+    left: 7.5%;
+}
+.successBox .top {
+    width: 30px;
+    height: 70px;
+    background: url("../img/ok.png") center 30px no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.successBox .msg {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 100;
+}
+/*成功提示弹窗样式end*/
