@@ -1,12 +1,11 @@
 # cclc_wap
 
-HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
+
 
 <p align="center">
   <a href="https://vue-hn.now.sh" target="_blank">
-    <img src="/vue_static/img/home.png" >
+    <img src="/vue_static/img/home.png" width="300px">
     <br>
- 
   </a>
 </p>
 
