@@ -14,9 +14,15 @@
 ## Features
 
 
-- Single-file Vue Components
-  - Hot-reload in development
-  - CSS extraction for production
+<p>技术架构</p>
+
+-- vue-cli
+-- vue-router
+-- Vue components
+-- babel loader for ES6
+-- vue_static
+-- webpack
+
 
 
 
